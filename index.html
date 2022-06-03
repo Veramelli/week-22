@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='./node_modules/fullcalendar/main.css' rel='stylesheet' />
+    <script src='./node_modules/fullcalendar/main.js'></script>
+    <script src="./node_modules/fullcalendar/locales/ru.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="wrapper">
+                                <div class="title"> Еженедельная аналитика по дням</div>
+                                <div class="date"></div>
+            </div>
+        </header>
+        <main>
+            <div class="weekChart"><canvas id="myChart"></canvas></div>
+            <div class="dayChart"><canvas id="dayChart"></canvas></div>
+
+        </main>
+        <aside>
+            <div id="calendar"></div>
+        </aside>
+    </div>
+
+    <script src="./bundle.js"></script>
+</body>
+
+</html>

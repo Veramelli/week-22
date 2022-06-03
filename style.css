@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: rgb(51, 51, 51, 0.5);
+    background-color: #B099A4;
+}
+
+header {
+    padding-top: 2rem;
+    padding-left: 10rem;
+    margin-left: 15px;
+    margin-right: 15px;
+        grid-row: 1 / 2;
+    grid-column: 1 / 4;
+}
+
+main {
+    margin-left: 10rem;
+    grid-row: 2 / 5;
+    grid-column: 1 / 3;
+}
+
+aside {
+    padding: 10px;
+    margin-right: 10rem;
+    grid-row: 2 / 5;
+    grid-column: 3 / 4;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 46.5rem;
+    grid-template-rows: 80px 1fr 1fr 100px;
+    gap: 1rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: rgb(78, 78, 78);
+}
+.date{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: rgb(78, 78, 78);
+}
+
+.weekChart {
+    width: 80%;
+    height: 40%;
+}
+
+.dayChart {
+    width: 60%;
+}
+
+#calendar {
+    padding: 10px;
+    border: 2px solid white;
+    background-color: #a8919c;
+}
