@@ -47,17 +47,18 @@ aside {
 }
 
 .title{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: x-large;
-    color: rgb(78, 78, 78);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #6B404B;
 }
 .date{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
-    color: rgb(78, 78, 78);
+    color: #6B404B;
 }
 
 .weekChart {
+    background-color: #c0b0b8;
     width: 80%;
     height: 40%;
 }

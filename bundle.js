@@ -19375,7 +19375,7 @@ document.addEventListener('DOMContentLoaded', function () {
         datasets: [{
             label: 'Рабочее время по дням недели',
             data: dataWeeksArray,
-            backgroundColor: backgroundWeekColorArray
+            backgroundColor: "#D4C0C1"
         }]
     };
     const configWeekChart = {
